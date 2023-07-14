@@ -1,10 +1,16 @@
 import { lazy } from "react";
 import { Navigate, Route, Routes } from "react-router";
 
-const Layout = lazy(() => import('./components/Layout/Layout'));
-const Home = lazy(() => import('./pages/Home/Home'));
-const Test = lazy(() => import('./pages/Test/Test'));
-const NotFound = lazy(() => import('./components/NotFound/NotFound'));
+// const Layout = lazy(() => import('./components/Layout/Layout'));
+// const Home = lazy(() => import('./pages/Home/Home'));
+// const Test = lazy(() => import('./pages/Test/Test'));
+// const NotFound = lazy(() => import('./components/NotFound/NotFound'));
+
+import  Layout from './components/Layout/Layout';
+import Home from './pages/Home/Home';
+import Test from './pages/Test/Test';
+import NotFound from './components/NotFound/NotFound';
+
 
 const App = () => {
   return (

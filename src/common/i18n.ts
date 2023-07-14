@@ -9,9 +9,6 @@ i18n.use(Backend)
         defaultNS: 'translation',
         fallbackLng: 'en',
         debug: false,
-        interpolation: {
-            escapeValue: false,
-        },
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json',
         },
