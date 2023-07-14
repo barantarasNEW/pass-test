@@ -2,8 +2,8 @@ import { Suspense } from "react";
 import { Outlet } from "react-router";
 import CssBaseline from '@mui/material/CssBaseline'
 
-import Loader from "../Loader/Loader";
 import Header from "../Header/Header";
+import Loader from "../Loader/Loader";
 
 const Layout = () => {
   return (
