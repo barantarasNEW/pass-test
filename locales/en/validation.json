@@ -1,0 +1,7 @@
+{
+  "required": "Field is required",
+  "min": "Field is too short - should be 8 chars minimum",
+  "easy": "Easy",
+  "medium": "Medium",
+  "strong": "Strong"
+}
