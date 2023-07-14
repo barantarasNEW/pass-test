@@ -1,9 +1,9 @@
+import { useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 import {Button} from '@mui/material';
 
 import { pages } from "./constants";
 import { NavbarBlock, NavbarItem, NavbarLink, NavbarList } from "./Styles";
-import { useLocation } from "react-router";
 
 const Navbar = () => {
   const {pathname} = useLocation();

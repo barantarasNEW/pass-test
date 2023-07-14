@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <HomeSection>
-      <Typography variant="h3">
+      <Typography variant="h3" textAlign="center">
         {t('welcome')}
       </Typography>
     </HomeSection>
