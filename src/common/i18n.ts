@@ -11,9 +11,9 @@ i18n.use(Backend)
         defaultNS: 'translation',
         fallbackLng: 'en',
         debug: false,
-        // backend: {
-        //     loadPath: '/locales/{{lng}}/{{ns}}.json',
-        // },
+        backend: {
+            loadPath: '/locales/{{lng}}/{{ns}}.json',
+        },
     });
 
 export default i18n;
