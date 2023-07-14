@@ -71,6 +71,7 @@ const Test = () => {
         </Typography>
 
         {<Button
+          variant="contained"
           disabled={!isValid}
           onClick={() => reset()}
         >
