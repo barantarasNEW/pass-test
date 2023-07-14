@@ -72,7 +72,7 @@ const Test = () => {
 
         {<Button
           disabled={!isValid}
-          onClick={() => reset}
+          onClick={() => reset()}
         >
           {t('clear')}
         </Button>}
