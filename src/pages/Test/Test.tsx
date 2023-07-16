@@ -15,7 +15,7 @@ const Test = () => {
   const [values, setValues] = useState(progress.default);
   const [message, setMessage] = useState('Easy');
 
-  const {register, formState: {errors, isValid}, reset } = useForm({
+  const {register, formState: {errors, isValid}, reset, watch } = useForm({
     mode: "onChange",
     resolver: yupResolver(validation),
     defaultValues,
@@ -72,7 +72,7 @@ const Test = () => {
 
         {<Button
           variant="contained"
-          disabled={!isValid}
+          disabled={!watch("password").length}
           onClick={() => reset()}
         >
           {t('clear')}
